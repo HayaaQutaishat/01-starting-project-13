@@ -4,12 +4,15 @@ import Products from "./components/Shop/Products";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { uiActions } from "./store/ui";
+import React from "react";
+import Notification from "./components/UI/Notification";
 
 function App() {
   const dispatch = useDispatch();
   const showCart = useSelector((state) => state.ui.showCart);
   // latest cart state
   const cart = useSelector((state) => state.cart);
+  const notification = useSelector((state) => state.ui.notification);
 
   // every time cart state changes, send HTTP request to the backend
   useEffect(() => {
@@ -51,10 +54,19 @@ function App() {
     });
   }, [cart, dispatch]);
   return (
-    <Layout>
-      {showCart && <Cart />}
-      <Products />
-    </Layout>
+    <React.Fragment>
+      {notification && (
+        <Notification
+          title={notification.title}
+          status={notification.status}
+          message={notification.message}
+        />
+      )}
+      <Layout>
+        {showCart && <Cart />}
+        <Products />
+      </Layout>
+    </React.Fragment>
   );
 }
 
