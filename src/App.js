@@ -7,6 +7,8 @@ import { uiActions } from "./store/ui";
 import React from "react";
 import Notification from "./components/UI/Notification";
 
+let isInitial = true;
+
 function App() {
   const dispatch = useDispatch();
   const showCart = useSelector((state) => state.ui.showCart);
@@ -42,6 +44,11 @@ function App() {
         })
       );
     };
+
+    if (isInitial) {
+      isInitial = false;
+      return;
+    }
 
     sendCartData().catch((error) => {
       dispatch(
