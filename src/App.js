@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import React from "react";
 import Notification from "./components/UI/Notification";
-import { sendCartData } from "./store/cart";
+import { sendCartData } from "./store/cart-action-creator";
 
 let isInitial = true;
 
@@ -22,7 +22,6 @@ function App() {
       isInitial = false;
       return;
     }
-
     dispatch(sendCartData(cart));
   }, [cart, dispatch]);
   return (
