@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import React from "react";
 import Notification from "./components/UI/Notification";
-import { sendCartData } from "./store/cart-action-creator";
+import { sendCartData, fetchCartData } from "./store/cart-action-creator";
 
 let isInitial = true;
 
@@ -24,6 +24,10 @@ function App() {
     }
     dispatch(sendCartData(cart));
   }, [cart, dispatch]);
+
+  useEffect(() => {
+    dispatch(fetchCartData());
+  }, [dispatch]);
   return (
     <React.Fragment>
       {notification && (
