@@ -1,4 +1,5 @@
 import { uiActions } from "./ui";
+import { cartActions } from "./cart";
 
 // create action creator (to fetch data from firebase)
 export const fetchCartData = () => {
@@ -22,6 +23,7 @@ export const fetchCartData = () => {
     };
     try {
       const cartData = await fetchData();
+      dispatch(cartActions.replaceCart(cartData));
     } catch (error) {
       dispatch(
         uiActions.showNotifications({
