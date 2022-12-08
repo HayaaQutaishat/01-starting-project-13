@@ -27,6 +27,7 @@ function App() {
     }
   }, [cart, dispatch]);
 
+  // fetch data from Database when  the App loads
   useEffect(() => {
     dispatch(fetchCartData());
   }, [dispatch]);

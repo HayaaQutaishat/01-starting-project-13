@@ -4,13 +4,6 @@ import { cartActions } from "./cart";
 // create action creator (to fetch data from firebase)
 export const fetchCartData = () => {
   return async (dispatch) => {
-    // dispatch(
-    //   uiActions.showNotifications({
-    //     title: "pending",
-    //     status: "pending",
-    //     message: "Fetching Cart Data!",
-    //   })
-    // );
     const fetchData = async () => {
       const response = await fetch(
         "https://react-http-489ae-default-rtdb.europe-west1.firebasedatabase.app/cart.json"
@@ -48,7 +41,7 @@ export const sendCartData = (cart) => {
       uiActions.showNotifications({
         title: "pending",
         status: "pending",
-        message: "Sedning Cart Data!",
+        message: "Sedning Cart Data...",
       })
     );
 
