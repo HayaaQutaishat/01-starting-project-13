@@ -6,6 +6,9 @@ This application allows users to browse and order products from the store. Users
 They can add products to their cart by clicking the "Add to Cart" button on the product. They can also remove items from their cart or update the quantities on the cart. When users clicks on "My Cart" button they can see the list of all items currently in their cart, along with the total price.
 
 
+<img width="1440" alt="Screen Shot 2022-12-16 at 1 14 20 PM" src="https://user-images.githubusercontent.com/95029840/208096042-aa7bd2b7-dfaa-438b-9493-c533d91eb6d4.png">
+
+
 ### Project purpose :
 
 In this web application I handled some asynchronous tasks with the help of Redux Toolkit (Sending HTTP requests and similar tasks), also I used two different alternatives of where to put the side effect code because the reducer functions must be pure, side-effect free, and synchronous. The first possible place to put my asynchronous code is directly into the component. The second possible place is inside the action creators functions bacause redux actually has a solution that allows us to perform side effects and run asynchronous tasks as part of this action creators without changing the reducer function. 
