@@ -28,7 +28,7 @@ Before you can run this app, you will need to have the following software instal
 - Node.js
 - npm (which comes with Node)
 
-## Setup :
+## Setting up the app :
 
 To get started, clone or download the repository and navigate to the root directory in your terminal. Then, run the following commands:
 
