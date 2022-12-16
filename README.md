@@ -20,7 +20,7 @@ I created a Store folder to setup my Redux store, I created multiple slices in t
 ## Technologies used :
 
 - React
--  React redux
+-  React redux 
 -  Redux Toolkit 
 -  Redux DevTools
 
@@ -36,6 +36,9 @@ Before you can run this app, you will need to have the following software instal
 
 To get started, clone or download the repository and navigate to the root directory in your terminal. Then, run the following commands:
 
+
+- Clone the repository: git clone https://github.com/[USERNAME]/react-product-ordering.git
+- Navigate to the project directory: cd react-product-ordering
 - Install all dependencies: run npm install
 - Install Redux Toolkit: run npm install @reduxjs/toolkit
 - Install React Redux: run npm install react-redux
