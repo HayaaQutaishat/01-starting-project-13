@@ -5,6 +5,7 @@ Welcome to the Order Products React App!
 This application allows users to browse and order products from the store. Users can check the available products which are fetched from Firebase backend.
 They can add products to their cart by clicking the "Add to Cart" button on the product. They can also remove items from their cart or update the quantities on the cart. When users clicks on "My Cart" button they can see the list of all items currently in their cart, along with the total price.
 
+
 ### Project purpose :
 
 In this web application I handled some asynchronous tasks with the help of Redux Toolkit (Sending HTTP requests and similar tasks), also I used two different alternatives of where to put the side effect code because the reducer functions must be pure, side-effect free, and synchronous. The first possible place to put my asynchronous code is directly into the component. The second possible place is inside the action creators functions bacause redux actually has a solution that allows us to perform side effects and run asynchronous tasks as part of this action creators without changing the reducer function. 
@@ -20,6 +21,12 @@ I created a Store folder to setup my Redux store, I created multiple slices in t
 
 Built with React, React redux, Redux Toolkit, Javascript, CSS and HTML.
 
+
+Prerequisites
+Before you can run this app, you will need to have the following software installed on your machine:
+
+Node.js
+npm (which comes with Node)
 
 ## Setup :
 
