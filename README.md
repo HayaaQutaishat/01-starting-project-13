@@ -19,6 +19,8 @@ Built with React, React redux, Redux Toolkit, Javascript, CSS and HTML.
 
 ## Setup :
 
+To get started, clone or download the repository and navigate to the root directory in your terminal. Then, run the following commands:
+
 - Install all dependencies: run npm install
 - Install Redux Toolkit: run npm install @reduxjs/toolkit
 - Install React Redux: run npm install react-redux
