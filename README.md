@@ -13,5 +13,6 @@ Also in this project I used Redux DevTools to inspect and debug my Redux store. 
 
 - Install all dependencies: run npm install
 - Install Redux Toolkit: run npm install @reduxjs/toolkit
+- Install React Redux: run npm install react-redux
 - Start the development server: run npm start
 - Visit the site: http://localhost:3000
