@@ -22,7 +22,7 @@ I created a Store folder to setup my Redux store, I created multiple slices in t
 Built with React, React redux, Redux Toolkit, Javascript, CSS and HTML.
 
 
-Prerequisites
+## Prerequisites :
 Before you can run this app, you will need to have the following software installed on your machine:
 
 Node.js
