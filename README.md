@@ -34,7 +34,6 @@ Before you can run this app, you will need to have the following software instal
 
 ## Setting up the app :
 
-To get started, clone or download the repository and navigate to the root directory in your terminal. Then, run the following commands:
 
 
 - Clone the repository: git clone https://github.com/[USERNAME]/react-product-ordering.git
