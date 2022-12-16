@@ -8,6 +8,10 @@ In this web application I handled some asynchronous tasks with the help of Redux
 Also in this project I used Redux DevTools to inspect and debug my Redux store. Redux DevTools allowed me to view the current state of the store, dispatch actions, and see the changes to the state that result from those actions.
 
 
+I created a Store folder to setup my Redux store, I create multiple slices, one slice for managing the cart and one slice for user interface logic like toggling the shopping cart.
+
+
+
 ## Topics :
 
 Built with React, React redux, Redux Toolkit, Javascript, CSS and HTML.
