@@ -22,6 +22,7 @@ I created a Store folder to setup my Redux store, I created multiple slices in t
 - React
 -  React redux
 -  Redux Toolkit 
+-  Redux DevTools
 
 
 ## Prerequisites :
