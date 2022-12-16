@@ -2,8 +2,8 @@
 
 Welcome to the Order Products React App!
 
-This application allows users to browse and order products from the store. Users can check the available products which are fetched from Firebase backend
-they can add products to their cart by clicking the "Add to Cart" button on the product. They can also remove items from their cart or update the quantities on the cart page.
+This application allows users to browse and order products from the store. Users can check the available products which are fetched from Firebase backend.
+They can add products to their cart by clicking the "Add to Cart" button on the product. They can also remove items from their cart or update the quantities on the cart. When users clicks on "My Cart" button they can see the list of all items currently in their cart, along with the total price.
 
 ### Project purpose :
 
