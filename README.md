@@ -11,8 +11,6 @@ Also in this project I used Redux DevTools to inspect and debug my Redux store. 
 
 ## Setup :
 
-Requires Python3 and the package installer for Python (pip) to run:
-
 - Install all dependencies: run npm install
 - Install Redux Toolkit: run npm install @reduxjs/toolkit
 - Start the development server: run npm start
