@@ -13,11 +13,11 @@ They can add products to their cart by clicking the "Add to Cart" button on the 
 
 In this web application I handled some asynchronous tasks with the help of Redux Toolkit (Sending HTTP requests and similar tasks), also I used two different alternatives of where to put the side effect code because the reducer functions must be pure, side-effect free, and synchronous. The first possible place to put my asynchronous code is directly into the component. The second possible place is inside the action creators functions bacause redux actually has a solution that allows us to perform side effects and run asynchronous tasks as part of this action creators without changing the reducer function. 
 
+
 Also in this project I used Redux DevTools to inspect and debug my Redux store. Redux DevTools allowed me to view the current state of the store, dispatch actions, and see the changes to the state that result from those actions.
 
 
-I created a Store folder to setup my Redux store, I created multiple slices in two separate files a ui.js file and cart.js file, each file has one slice, one for managing the cart and one slice for user interface logic like toggling the shopping cart.
-
+All the logic of toggling the shopping cart, adding items to the cart, removing items from the cart and updating the quantities on the cart is managed and handled by Redux Toolkit. I created a Store folder to setup my Redux store, and multiple slices in two separate files a ui.js file and cart.js file, each file has one slice, one for managing the cart data and one for user interface logic like toggling the shopping cart. Thereafter, I connected my React components to the Redux store using the useSelector and useDispatch hooks in order to access and extract the data I need from the Redux store (create subscriptions to the store), and to dispatch actions in the store.
 
 
 ## Technologies used :
