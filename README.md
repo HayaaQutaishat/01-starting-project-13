@@ -25,4 +25,7 @@ To get started, clone or download the repository and navigate to the root direct
 - Install Redux Toolkit: run npm install @reduxjs/toolkit
 - Install React Redux: run npm install react-redux
 - Start the development server: run npm start
-- Visit the site: http://localhost:3000
+
+
+This will install all necessary dependencies and start the development server. The app will be available at http://localhost:3000 in your browser.
+
