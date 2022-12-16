@@ -25,8 +25,8 @@ Built with React, React redux, Redux Toolkit, Javascript, CSS and HTML.
 ## Prerequisites :
 Before you can run this app, you will need to have the following software installed on your machine:
 
-Node.js
-npm (which comes with Node)
+- Node.js
+- npm (which comes with Node)
 
 ## Setup :
 
